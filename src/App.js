@@ -10,6 +10,7 @@ const theme = extendTheme({
         boxSizing: 'border-box',
         bg: palette.white,
         fontFamily: '"Noto Sans", sans-serif',
+        color: 'white',
       },
     },
   },
