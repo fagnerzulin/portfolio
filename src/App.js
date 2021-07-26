@@ -1,6 +1,7 @@
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import React from 'react';
 import palette from './constants/palette';
+import MainContainer from './components/MainContainer/MainContainer';
 
 const theme = extendTheme({
   styles: {
@@ -17,7 +18,7 @@ const theme = extendTheme({
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <div>Olá</div>
+      <MainContainer />
     </ChakraProvider>
   );
 }
